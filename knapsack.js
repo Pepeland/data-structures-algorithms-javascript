@@ -35,7 +35,7 @@ function ks_brute_force(products, w, n = 0) {
     return max;
 }
 
-// knapsack using recursion and memoaization
+// knapsack using recursion and memoization
 function ks_memo(products, w, n = 0, memo = {}) {
     if(n == products.length || w == 0) return 0;
     const currentItem = products[n];
