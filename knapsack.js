@@ -55,7 +55,7 @@ console.log(ks([[2,1],[3,4],[6,5],[9,6]], 11)); // 10
 console.log(ks([[2,1],[3,4],[6,5],[9,6],[1,3],[4,9],[5,12],[7,3],[8,5],[10,7],[2,7],[11,5],[12,2],[13,8],[14,3],[15,10],[16,3],[17,11],[18,15],[19,3],[20,13]], 17)); // 10
 console.log('');
 
-console.log("cases by knapsack throw memoaization:")
+console.log("cases by knapsack throw memoization:")
 console.log(ks_memo([[3,6],[2,8],[4,7]], 8)); // 15
 console.log(ks_memo([[2,1],[3,4],[6,5],[7,6]], 10)); // 10
 console.log(ks_memo([[2,1],[3,4],[6,5],[9,6]], 11)); // 10
